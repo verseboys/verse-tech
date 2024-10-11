@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+
+
+
+    <modules>
+        <module>Design-Patterns</module>
+        <module>Nacos</module>
+        <module>RabbitMQ</module>
+        <module>Sortings</module>
+        <module>Others</module>
+        <module>Memcache</module>
+        <module>NearbySearch</module>
+        <module>BaseDemo</module>
+        <module>java8-juc-samples</module>
+        <module>javaweb-learning-samples</module>
+    </modules>
+    <groupId>com.study.www</groupId>
+    <artifactId>larscheng-learning-demo</artifactId>
+
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>larscheng-learning-demo</name>
+
+    <description>Demo project for Spring Boot</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.22</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+    </dependencies>
+
+</project>
