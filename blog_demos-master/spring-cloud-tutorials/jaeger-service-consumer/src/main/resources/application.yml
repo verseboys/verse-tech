@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: jaeger-service-consumer
+opentracing:
+  jaeger:
+    enabled: true
+    udp-sender:
+      host: jaeger
+      port: 6831
+    # 上报到Jaeger的服务名，如果不配置就用spring.application.name
+    service-name: 服务提供者
+logging:
+  config: classpath:./logback.xml
